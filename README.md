@@ -1,6 +1,6 @@
 # Classy Schedule Desktop App 2.0
 
-This project takes the work done in the senior Capstone at the University of St. Thomas during the Spring of 2022 and builds on it. With this project the backend and database will be redeveloped for efficiency and efficacy
+This project takes the work done in the senior Capstone at the University of St. Thomas during the Spring of 2022 and builds on it. With this project the backend and database will be redeveloped for efficiency.
 
 ## Table of contents
 * [General info](#general-info)
