@@ -1,10 +1,10 @@
 {
   "name": "classy-schedule-desktop",
   "productName": "ClassySchedule",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "public/electron.js",
   "private": true,
-  "author": "CISC480 Desktop Team",
+  "author": "Bharath Bros",
   "description": "A lightweight desktop application for creating classy schedules.",
   "homepage": "./",
   "dependencies": {
@@ -29,17 +29,13 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "^5.0.0",
     "tree-model": "^1.0.7",
-    "web-vitals": "^2.1.4",
-    "yarn": "^1.22.17"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "react-build": "react-scripts build",
     "react-test": "react-scripts test",
     "react-eject": "react-scripts eject",
-    "electron-build": "electron-builder",
-    "release": "yarn react-build && electron-builder --publish=always",
-    "build": "yarn react-build && yarn electron-build",
     "electron-pack": "electron-builder -mw -c.extraMetadata.main=build/electron.js",
     "electron-dev": "concurrently \"cross-env BROWSER=none && npm start\" \"wait-on http://localhost:3000 && electron .\""
   },
