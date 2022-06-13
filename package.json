@@ -4,7 +4,7 @@
   "version": "1.0.4",
   "main": "public/electron.js",
   "private": true,
-  "author": "CISC480 Desktop Team",
+  "author": "Bharath Bros",
   "description": "A lightweight desktop application for creating classy schedules.",
   "homepage": "./",
   "dependencies": {
