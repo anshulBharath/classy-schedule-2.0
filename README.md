@@ -49,4 +49,4 @@ $ npm run electron-dev
 
 
 Create a branch off main and you are set to start contributing. Happy Coding!
-
+- The Bharath Bros
